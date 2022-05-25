@@ -122,3 +122,32 @@ home.js
 ### 打包设置
 
 
+a、需要提前下载一下文件：
+
+   版本号  [electron-v15.3.5-win32-x64.zip](https://registry.npmmirror.com/binary.html?path=electron/v15.3.5/)
+
+   版本号  [winCodeSign-2.6.0.7z](https://registry.npmmirror.com/binary.html?path=electron-builder-binaries/winCodeSign-2.6.0/)
+
+   版本号  [nsis-resources-3.4.1](https://cdn.npmmirror.com/binaries/electron-builder-binaries/nsis-resources-3.4.1/nsis-resources-3.4.1.7z)
+
+b、将上述下载好的文件分别添加到对应的文件夹下
+
+C:\Users\Administrator\AppData\Local\electron-builder\Cache\electron
+C:\Users\Administrator\AppData\Local\electron-builder\Cache\winCodeSign
+C:\Users\Administrator\AppData\Local\electron-builder\Cache\nsis
+
+
+
+### 下载 electron-v9.4.4-win32-ia32.zip
+https://npm.taobao.org/mirrors/electron/9.4.4/electron-v9.4.4-win32-ia32.zip
+解压放到 C:\Users\Admin\AppData\Local\electron-builder\Cache 目录下
+
+### 下载 winCodeSign
+https://npm.taobao.org/mirrors/electron-builder-binaries/winCodeSign-2.6.0/
+解压放到C:\Users\Admin\AppData\Local\electron-builder\Cache\winCodeSign\winCodeSign-2.6.0目录下（没有的话，自己创建winCodeSign-2.6.0）
+ 
+### 下载/nsis-3.0.4.1
+⨯ Get "https://github.com/electron-userland/electron-builder-binaries/releases/download/nsis-3.0.4.1/nsis-3.0.4.1.7z": dial tcp 52.74.223.119:443: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond.
+
+https://npm.taobao.org/mirrors/electron-builder-binaries/nsis-3.0.4.1/
+解压放到C:\Users\Admin\AppData\Local\electron-builder\Cache\nsis\nsis-3.0.4.1 目录下（没有的话，自己创建nsis-3.0.4.1）
